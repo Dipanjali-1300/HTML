@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    font-family: <i>Verdana</i>;
+}
+#beverages
+{
+  width: 300px;
+  border: 15px solid rgb(7, 226, 197);
+  padding: 50px;
+  margin: 20px;
+}
+#soups
+{
+  width: 300px;
+  border: 15px solid rgb(7, 226, 197);
+  padding: 50px;
+  margin: 20px;
+}
+#pasta
+{
+  width: 300px;
+  border: 15px solid rgb(7, 226, 197);
+  padding: 50px;
+  margin: 20px;
+}
+#desserts
+{
+  width: 300px;
+  border: 15px solid rgb(7, 226, 197);
+  padding: 50px;
+  margin: 20px;
+}
