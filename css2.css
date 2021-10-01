@@ -1,32 +1,39 @@
 h1{
     text-align: center;
-    font-family: <i>Verdana</i>;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    background-color:rgb(150, 22, 22) ;
+    height: 100px;
 }
 #beverages
 {
   width: 300px;
-  border: 15px solid rgb(7, 226, 197);
+  border: 20px solid rgb(7, 226, 197);
   padding: 50px;
   margin: 20px;
+  background-color: burlywood;
 }
 #soups
 {
   width: 300px;
-  border: 15px solid rgb(7, 226, 197);
+  border: 20px solid rgb(7, 226, 197);
   padding: 50px;
   margin: 20px;
+  background-color: burlywood;
 }
 #pasta
 {
   width: 300px;
-  border: 15px solid rgb(7, 226, 197);
+  border: 20px solid rgb(7, 226, 197);
   padding: 50px;
   margin: 20px;
+  background-color: burlywood;
 }
 #desserts
 {
   width: 300px;
-  border: 15px solid rgb(7, 226, 197);
+  border: 20px solid rgb(7, 226, 197);
   padding: 50px;
   margin: 20px;
+  background-color: burlywood;
 }
