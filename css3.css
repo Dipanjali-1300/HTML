@@ -9,9 +9,12 @@ p
    background-color: Tomato;
    width: 1000px;
    border: 20px solid beige ;
-   padding: 50px;
-   margin: 20px;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 20px;
+   padding: 100px;
+   margin: 50px;
+   font-family: 'Ephesis', cursive;
+   font-size: 50px;
 }
-p.outset {border-style: outset;
+p.outset 
+{
+    border-style: outset;
+}

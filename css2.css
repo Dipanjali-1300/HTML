@@ -11,15 +11,18 @@ h1{
   border: 20px solid rgb(7, 226, 197);
   padding: 50px;
   margin: 20px;
-  background-color: burlywood;
+  background-color: rgb(14, 138, 196);
+  height:200px;
 }
 #soups
 {
   width: 300px;
   border: 20px solid rgb(7, 226, 197);
+  border-radius: 20px;
   padding: 50px;
   margin: 20px;
   background-color: burlywood;
+  height:200px;
 }
 #pasta
 {
@@ -28,6 +31,7 @@ h1{
   padding: 50px;
   margin: 20px;
   background-color: burlywood;
+  height:200px;
 }
 #desserts
 {
@@ -36,4 +40,5 @@ h1{
   padding: 50px;
   margin: 20px;
   background-color: burlywood;
+  height:200px;
 }
