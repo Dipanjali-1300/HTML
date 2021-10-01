@@ -6,6 +6,7 @@ h1
 }
 p
 {
+    top: 10px;
    background-color: Tomato;
    width: 1000px;
    border: 20px solid beige ;
