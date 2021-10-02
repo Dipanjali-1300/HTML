@@ -4,6 +4,13 @@ h1{
     font-size: 30px;
     background-color:rgb(150, 22, 22) ;
     height: 100px;
+    top: 0px;
+}
+.menu
+{
+  
+  font-size: 3rem;
+  font-family: 'Lobster',cursive;
 }
 body
 {
@@ -27,7 +34,7 @@ body
   margin: 1em;
   padding: 0.5em;
   border-radius: 20px;
-  background-color: rgb(115, 185, 241);
+  background-color: blanchedalmond;
 }
 
 .cont
