@@ -5,18 +5,39 @@ h1{
     background-color:rgb(150, 22, 22) ;
     height: 100px;
 }
-#beverages
+body
 {
-    align-items: center;
-  width: 300px;
-  border: 20px solid rgb(7, 226, 197);
-  border-radius: 20px;
-  padding: 50px 50px;
-  margin: 20px;
-  background-color: rgb(14, 138, 196);
-  height:200px;
+  margin:0px;
+  padding:0px;
 }
-#soups
+/* #beverages */
+.box-wrap
+{
+  dispay:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box
+{
+  width:300px;
+  height:400px;
+  border: 20px solid rgb(7, 226, 197);
+  box-sizing:border-box;
+  float: left;
+  margin: 1em;
+  padding: 0.5em;
+  border-radius: 20px;
+  background-color: rgb(12, 12, 211);
+}
+
+.cont
+{
+float: left;
+margin: 0.2px;
+padding:0.5em;
+box-sizing:border-box;
+}
+/* #soups
 {
   width: 300px;
   border: 20px solid rgb(7, 226, 197);
@@ -45,4 +66,36 @@ h1{
   margin: 20px;
   background-color: rgb(14, 138, 196);
   height:200px;
+} */
+@media screen and(max-width:768px)
+{
+  .box{
+    width:100%;
+  }
+  .cont{
+    width:90%;
+    background-color: rgb(17, 65, 223);
+  }
+}
+
+@media screen and(min-width:769px) and (max-width:1200)
+{
+  .box{
+    width:50%%;
+  }
+  .cont{
+    width:45%;
+    background-color: rgb(17, 65, 223);
+  }
+}
+
+@media screen and(min-width:1201px) 
+{
+  .box{
+    width:25%;
+  }
+  .cont{
+    width:20%;
+    background-color: rgb(17, 65, 223);
+  }
 }
