@@ -28,6 +28,10 @@ h1{
     border-radius: 100px;
 
 }
+#logo
+{
+    margin: 10px 50px;
+}
 #nav-bar{
     display: flex;
     align-items: center;
@@ -62,9 +66,7 @@ h1{
     background-color: blanchedalmond;
 }
 #images{
-    display: inline-flexbox;
-    
-    padding-left: 70px;
+    padding-left: 90px;
    
     display: flex;
     background-color:blanchedalmond;
