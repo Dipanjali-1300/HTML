@@ -20,9 +20,9 @@ p
 }
 .feedback
 {
-  width: 300px;
+  /* width: 300px;
   border: 15px solid tomato;
   padding: 100px;
-  margin: 50px;
+  margin: 50px; */
   font-family: 'Oswald', sans-serif;
 }
