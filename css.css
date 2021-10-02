@@ -16,7 +16,7 @@ h1{
 #hero-img
 {
     display: flex;
-    padding: 20px 300px;
+    padding: 9px 300px;
     flex-direction: column;
     align-items: center;
     height: 30%;
@@ -30,7 +30,14 @@ h1{
 }
 #logo
 {
-    margin: 10px 50px;
+    margin: 0px 69px;
+}
+#logo img
+{
+    height: 180px;
+    margin: 0px 0px;
+    border-radius:100px ;
+    box-shadow: 10px 10px 5px lightsalmon;
 }
 #nav-bar{
     display: flex;
@@ -39,6 +46,18 @@ h1{
     
     top: 0px ;
     height: fit-content;
+}
+#nav-bar::before
+{
+    content: "";
+    background-color: #1fc8db;
+    background-image: linear-gradient(140deg, #EADEDB 0%, #BC70A4 50%, #BFD641 75%);
+    opacity: 0.8;
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    left: 0px;
+    z-index: -1;
 }
 #nav-bar ul
 {
@@ -55,7 +74,7 @@ h1{
 {
     display:block;
     padding: 10px 10px;
-    color: #BC70A4;
+    color: #a80924;
     border-radius: 100px;
     text-decoration: none;
     

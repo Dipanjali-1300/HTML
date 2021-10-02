@@ -18,12 +18,56 @@ p
     font-size: 20px;
     padding: 10px 10px;
 }
-.feedback
+/* .feedback
 {
   /* width: 300px;
   border: 15px solid tomato;
   padding: 100px;
   margin: 50px; */
-  font-family: 'Oswald', sans-serif;
-  ro
+  /* font-family: 'Oswald', sans-serif;
+   */
+/* } */ 
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    color: thistle;
+    font-family:'Lobster', cursive ;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: o.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+
+}
+
+.btnn  {
+    display: block;
+    width: 33%;
+    margin: auto;
+}
+.btnn {
+    font-family: 'Trochut', cursive;
+    margin: 19px 365px;
+    padding: 2px 39px;
+    border: 3px solid rgb(235, 19, 55);
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btnn:hover{
+    color: black;
+   background-color: rgb(179, 110, 13);
+   font-family: 'Concert One', cursive;
+   cursor: pointer;
 }
